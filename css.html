@@ -14,6 +14,21 @@
         font:10px;
       }
     </pre>
+    后代选择器：不论嵌套有多深都可以找到，例如：
+    <pre>
+      <code>
+        ul em{
+          font:red;
+        }
+      </code>
+      <ul>
+        <li>
+          <em>
+            hello
+          </em>
+        </li>
+      </ul>
+    </pre> 
   </p>
 </body>
 </html>
